@@ -29,7 +29,7 @@ Player * Referee::refGame(Player * player1, Player * player2){
     }else if(player1 -> Move == 'S' && player2 -> Move == 'S'){
         return NULL;
 
+    }else{
+        return NULL;
     }
-
-    return player1;
 }
