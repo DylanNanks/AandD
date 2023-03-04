@@ -12,13 +12,7 @@ Computer::Computer(){
 
 char Computer::makeMove(){
 
-    char moveMade;
-    cout << "Enter move:";
-    cin >> moveMade;
-    Move = moveMade;
-
-
-    return moveMade;
+    return 'R';
 }
 
 string Computer::getName(){
