@@ -14,7 +14,7 @@ Human::Human(std::string _Name){
 
 char Human::makeMove(){
     char moveMade;
-    cout << "Enter move: ";
+    cout << "Enter move:";
     cin >> moveMade;
     Move = moveMade;
 

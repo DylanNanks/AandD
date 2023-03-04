@@ -20,11 +20,10 @@ int main(){
     Human1 = new Human();
     Computer1 = new Computer();
 
-    std::cout << Human1 -> getName() << std::endl;
+    Human1 -> makeMove();
+    Computer1 -> makeMove();
 
-    std::cout << Human2 -> makeMove() << std::endl;
-
-    std::cout << Referee1 -> refGame(Human2, Computer1) << std::endl;
+    std::cout << Referee1 -> refGame(Human1, Computer1) << std::endl;
 
 
 

@@ -13,7 +13,7 @@ Computer::Computer(){
 char Computer::makeMove(){
 
     char moveMade;
-    cout << "Enter move: ";
+    cout << "Enter move:";
     cin >> moveMade;
     Move = moveMade;
 
