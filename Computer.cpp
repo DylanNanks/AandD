@@ -9,10 +9,16 @@ Computer::Computer(){
     Move = 'R';
 }
 
+
 char Computer::makeMove(){
 
+    char moveMade;
+    cout << "Enter move: ";
+    cin >> moveMade;
+    Move = moveMade;
 
-    return 'R';
+
+    return moveMade;
 }
 
 string Computer::getName(){

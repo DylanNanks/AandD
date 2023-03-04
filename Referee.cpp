@@ -30,6 +30,7 @@ Player * Referee::refGame(Player * player1, Player * player2){
         return NULL;
 
     }else{
-        return NULL;
+        return player1;
+        
     }
 }
