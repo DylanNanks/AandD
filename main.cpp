@@ -20,8 +20,6 @@ int main(){
     Human1 = new Human();
     Computer1 = new Computer();
 
-    Human1 -> makeMove();
-    Computer1 -> makeMove();
 
     std::cout << Referee1 -> refGame(Human1, Computer1) << std::endl;
 
